@@ -320,7 +320,6 @@ body{
     height: 26vh;
     width: 96%;
     margin: 5px auto;
-    /* box-shadow: 1px 1px 30px -3px rgba(0, 0, 0, 0.3); */
     color: var(--black);
     margin-top: 20px;
 }
@@ -449,6 +448,8 @@ body{
     color: white;
     transform: translateY(300%);
     transition: transform 0.8s ease;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .tps:hover  .tps__text{
