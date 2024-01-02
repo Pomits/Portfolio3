@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Monterrey
+X-LIC-LOCATION:America/Monterrey
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Monterrey:20231226T160000
+DTEND;TZID=America/Monterrey:20231226T163000
+DTSTAMP:20231222T012314Z
+ORGANIZER;CN=Javier Cantu:mailto:javiercantu@b360agencia.com
+UID:fll6rela3b1i8k9ttqq6hveo1c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;RSVP=TRUE
+ ;CN=tomas2004curti@gmail.com;X-NUM-GUESTS=0:mailto:tomas2004curti@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;RSVP=TRUE
+ ;CN=Javier Cantu;X-NUM-GUESTS=0:mailto:javiercantu@b360agencia.com
+X-MICROSOFT-CDO-OWNERAPPTID:1848125579
+CREATED:20231222T012012Z
+DESCRIPTION:Felicitaciones tomas\n\nHaz agendado: Sistema De Implementación
+  $10K\n\nLa reunión se llevará acabo aquí: Location: This is a Zoom web con
+ ference.\n\nYou can join this meeting from your computer\, tablet\, or smar
+ tphone.\nhttps://us06web.zoom.us/j/87208978354?pwd=NpjE9wfrXZSSSmDLIcvQE2e3
+ 3qcxVA.1\n\nPassword: 409178\n\nOne tap mobile:\n+1 309 205 3325\,\,8720897
+ 8354#\n+1 312 626 6799\,\,87208978354#\n\nYou can also dial in using your p
+ hone.\nUS: +1 309 205 3325\, +1 312 626 6799\, +1 646 558 8656\, +1 646 931
+  3860\, +1 301 715 8592\, +1 305 224 1968\, +16892781000\, +1 719 359 4580\
+ , +1 720 707 2699\, +1 253 205 0468\, +1 253 215 8782\, +1 346 248 7799\, +
+ 1 360 209 5623\, +1 386 347 5053\, +1 507 473 4847\, +1 564 217 2000\, +1 6
+ 69 444 9171\nMeeting ID: 872-089-78354\n\nFind your local number: https://u
+ s06web.zoom.us/u/kpcxOcG3l\n\n\nPara acceder a la reunión simplemente toca 
+ ese link cuando llegue la hora y día agendado.\n\n\nSaludos\,\n\n-Javier Ca
+ ntu\n\n\nP.S: Ante cualquier duda puedes responder este email\n\nCancellati
+ on Reason: \n
+LAST-MODIFIED:20231222T012313Z
+LOCATION:https://us06web.zoom.us/j/87208978354?pwd=NpjE9wfrXZSSSmDLIcvQE2e3
+ 3qcxVA.1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Canceled: Como acceder a la reunion de tomas y Javier Cantu
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

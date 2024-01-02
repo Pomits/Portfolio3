@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Soft_red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark_desaturated_cyan: hsl(167, 40%, 24%);
+    --Dark_blue: hsl(198, 62%, 26%);
+    --Dark_moderate_cyan: hsl(168, 34%, 41%);
+    --Footer_cyan: hsl(167, 44%, 70%);
+    --Very_dark_desaturated_blue: hsl(212, 27%, 19%);
+    --Very_dark_grayish_blue: hsl(213, 9%, 39%);
+    --Dark_grayish_blue: hsl(232, 10%, 55%);
+    --Grayish_blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --Barlow: Barlow;
+    --Fraunces: Fraunces;
+}
+
+body{
+    width: 100vw;
+    
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "naranja naranja naranja naranja"
+    "text1 text1 img1 img1"
+    "img2 img2 text2 text2"
+    "imgtext1 imgtext1 imgtext2 imgtext2"
+    "cielntes cielntes cielntes cielntes"
+    "galery galery galery galery"
+    "foot foot foot foot";
+}
+
+
+
+.menu{
+    grid-area: naranja;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: min-content;
+    justify-content: space-between;
+    margin-top: 40px;
+    z-index: 100;
+}
+
+.menu__hamburgesa{
+    display: none;
+}
+
+.checkbox{
+    display: none;
+}
+
+.nav__lists{
+    display: flex;
+    gap: 20px;
+    color: white;
+    z-index: 10;
+}
+
+.nav__list{
+    list-style: none;
+}
+
+.nav__cta{
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    
+}
+
+.header__backround{
+    grid-area: naranja;
+    width: 100%;
+    z-index: 10;
+}
+
+.header__backround2{
+    display: none;
+    grid-area: naranja;
+    width: 100%;
+    z-index: 10;
+}
+
+.header{
+    grid-area: naranja;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    top: 20%;
+    z-index: 100;
+    
+}
+
+.header__title{
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: white;
+    margin-bottom: 100px;
+    z-index: 1;
+}
+
+
+/*body*/
+
+.body__text{
+    width: 60%;
+    margin: auto;
+}
+
+.body__text1{
+    grid-area: text1;
+}
+
+.body__title{
+    font-family: Fraunces;
+    font-size: 3rem;
+}
+
+.body__paragraph{
+    margin: 30px 0;
+    font-size: 18px;
+    font-family: Barlow;
+    color: var(--Dark_grayish_blue);
+    line-height: 30px;
+}
+
+.body__cta{
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Fraunces;
+    text-transform: uppercase;
+    color: var(--Dark_blue);
+}
+
+.body__cta1{
+    text-decoration: underline var(--Yellow) 3px ;
+}
+
+.body__img1{
+    grid-area: img1;
+    width: 100%;
+}
+
+.body__text2{
+    grid-area: text2;
+}
+
+.body__cta2{
+    text-decoration: underline var(--Soft_red) 3px ;
+}
+
+.body__img2{
+    grid-area: img2;
+    width: 100%;
+}
+
+.img__text{
+    z-index: 100;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 60%;
+    text-align: center;
+}
+
+.img__text1{
+    grid-area: imgtext1;
+}
+
+.img__text2{
+    grid-area: imgtext2;
+}
+
+.img__title{
+    font-family: Fraunces;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.img__paragraph{
+    font-size: 100%;
+    font-family: Barlow;
+    line-height: 20px;
+}
+
+.img__title1{
+    color: var(--Dark_desaturated_cyan);
+}
+
+.img__paragraph1{
+    color: var(--Dark_desaturated_cyan) ;
+}
+
+.img__title2{
+    color: var(--Dark_blue);
+}
+
+.img__paragraph1{
+    color: var(--Dark_blue) ;
+}
+
+.body__img3{
+    grid-area: imgtext1;
+    width: 100%;
+}
+
+.body__img4{
+    grid-area: imgtext2;
+    width: 100%;
+}
+
+/*CLIENTES*/
+
+.clients{
+    grid-area: cielntes;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.clientes{
+    display: flex;
+}
+
+.cliente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes__title{
+    font-size: 2em;
+    font-family: var(--Fraunces);
+    text-transform: uppercase;
+    color: var(--Grayish_blue);
+}
+
+.client__img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    background-position: center;
+    background-size: contain;
+    margin: 60px 0;
+}
+
+.client__img1{
+    background-image: url(images/image-emily.jpg);
+}
+
+.client__img2{
+    background-image: url(images/image-thomas.jpg);
+}
+
+.client__img3{
+    background-image: url(images/image-jennie.jpg);
+}
+
+.client__text{
+    font-size: 18px;
+    font-family: Barlow;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.client__name{
+    font-family: var(--Fraunces);
+    font-size: 18px;
+}
+
+.client__work{
+    color: var(--Grayish_blue);
+    font-weight: 600;
+}
+
+/*galery*/
+
+.galery{
+    grid-area: galery;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.galery__img{
+    width: 100%;
+}
+
+/*FOOTER*/
+
+.footer{
+    grid-area: foot;
+    background-color: var(--Footer_cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 70px;
+}
+
+.foot__logo{
+    width: min-content;
+}
+
+.contact__us{
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--Dark_moderate_cyan);
+    font-family: var(--Barlow);
+    font-size: 18px;
+}
+
+.redes__logos{
+    margin: 0 10px;
+}
+
+
+@media (max-width:375px){
+    .main{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "naranja"
+        "img1"
+        "text1"
+        "img2"
+        "text2"
+        "imgtext1"
+        "imgtext2"
+        "cielntes"
+        "galery"
+        "foot";
+    }
+
+    .galery{
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-areas: 
+        "img3 img4"
+        "img5 img6";
+    }
+
+    .body__text{
+        margin: 30px auto;
+    }
+
+    .menu{
+        margin-bottom: 50px;
+    }
+
+    .header__backround{
+        display: none;
+    }
+
+    .header__backround2{
+        display: block;
+    }
+
+    .header__title{
+        width: 60%;
+        margin: 20px auto;
+        font-size: 1.5rem;
+        z-index: 1;
+    }
+
+    .nav__lists{
+        display: none;
+        z-index: 10;
+    }
+    
+    .checkbox:checked + .nav__lists{
+        display: flex;
+        position: absolute;
+        top: 6%;
+        flex-direction: column;
+        left: 60%;
+        padding: 0;
+        background-color: var(--White);
+        color: var(--Dark_desaturated_cyan);
+        z-index: 500;
+        padding: 20px;
+    }
+
+    .nav__list{
+        font-size: 18px;
+    }
+    
+    .nav__cta{
+        background-color: var(--Yellow);
+    }
+    .menu__hamburgesa{
+        display: block;
+    }
+
+    .clientes{
+        flex-direction: column;
+    }
+}

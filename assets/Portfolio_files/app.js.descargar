@@ -1,0 +1,68 @@
+let ham = document.querySelector(".menu__ham");
+let menu = document.querySelector(".menu__lists");
+const elemento = document.querySelectorAll('.title');
+let contador = 1;
+
+
+
+/*abrir el menu*/
+if(window.screen.width <= "426"){
+    function menuOpen(){
+        ham.addEventListener("click", ()=>{
+            menu.style.transform = "scaleY(1)";
+            ham.addEventListener("click", ()=>{
+                menu.style.transform = "scaleY(0)";
+                menuOpen();
+            })
+        })
+    };
+    menuOpen();
+}
+
+/*girar en los titulos*/
+setInterval(()=>{
+    contador++
+    if(contador == 5){
+        contador = 1;
+    };
+    elemento.forEach((title, index)=>{
+        title.classList.remove(`animacion4`);    
+        title.classList.remove(`animacion${contador - 1}`);    
+        title.classList.add(`animacion${contador}`);
+    })
+},1500);
+
+
+function copiarTexto(texto) {
+    const elementoTemporal = document.createElement("textarea");
+    elementoTemporal.value = texto;
+    document.body.appendChild(elementoTemporal);
+    elementoTemporal.select();
+    document.execCommand("copy");
+    document.body.removeChild(elementoTemporal);
+    alert("Texto copiado al portapapeles: " + texto);
+}
+
+
+/*mover el menu de lenguajes*/
+
+let l1 = document.querySelector(".l1");
+let l2 = document.querySelector(".l2");
+let l3 = document.querySelector(".l3");
+let text = document.querySelector(".texto_relativo");
+let movedor = document.querySelector(".select");
+
+l1.addEventListener("click", (e)=>{
+    text.innerHTML = "opcion 1"
+    movedor.style.transform = "translateY(-380%)";
+})
+
+l2.addEventListener("click", (e)=>{
+    text.innerHTML = "opcion 2"
+    movedor.style.transform = "translateY(-250%)";
+})
+
+l3.addEventListener("click", (e)=>{
+    text.innerHTML = "opcion 3"
+    movedor.style.transform = "translateY(-140%)";
+})

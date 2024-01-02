@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+  <header class="hero">
+    <img src="assets/images/logo.svg" alt="" class="logo">
+    <div class="menu">
+      <ul class="lists ">
+        <li class="list"><a href="#home" class="list__links">Home</a></li>
+        <li class="list"><a href="#new" class="list__links">New</a></li>
+        <li class="list"><a href="#popular" class="list__links">Popular</a></li>
+        <li class="list"><a href="#trending" class="list__links">Trending</a></li>
+        <li class="list"><a href="#categories" class="list__links">Categories</a></li>
+      </ul>
+      <img src="assets/images/icon-menu.svg" alt="" class="menu__logo">
+    </div>
+  </header>
+
+  <div class="content">
+    <section class="home" id="home">
+      <div class="home__container">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="" class="home__img">
+      </div>
+      <div class="home__cont">
+        <h2 class="home__title">The Bright Future of Web 3.0?</h2>
+        <div class="home__text__cont">
+          <p class="home__text">  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            <a href="" class="home__link">Read more</a>
+        </div>
+      </div>
+    </section>
+  
+    <section class="new" id="new">
+      <h2 class="new__title">New</h3>
+      <div class="new__cont new1">
+        <h3 class="new__subtitle">Hydrogen VS Electric Cars</h3>
+        <p class="new__paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      <div class="new__cont new2">
+        <h3 class="new__subtitle">The Downsides of AI Artistry</h3>
+        <p class="new__paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+      <div class="new__cont new3">
+        <h3 class="new__subtitle">Is VC Funding Drying Up?</h3>
+        <p class="new__paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </section>
+  </div>
+  
+  <section class="trending" id="trending">
+    <div class="trending__cont">
+      <div class="trend__cont trend__cont1">
+        <img src="assets/images/image-retro-pcs.jpg" alt="" class="trend_icon">
+        <div class="trend__cont__text">
+          <p class="trend__num">01</p>
+          <h3 class="trend__title">Reviving Retro PCs</h3>
+          <p class="trend__text">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="trend__cont trend__cont2">
+        <img src="assets/images/image-top-laptops.jpg" alt="" class="trend_icon">
+        <div class="trend__cont__text">
+          <p class="trend__num">02</p>
+          <h3 class="trend__title">Top 10 Laptops of 2022</h3>
+          <p class="trend__text">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="trend__cont trend__cont3">
+        <img src="assets/images/image-gaming-growth.jpg" alt="" class="trend_icon">
+        <div class="trend__cont__text">
+          <p class="trend__num">03</p>
+          <h3 class="trend__title">The Growth of Gaming</h3>
+          <p class="trend__text">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="max__container"></div>
+
+  <script src="app.js"></script>
+  <div class="attribution" style="text-align: center;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tomas Curti</a>.
+  </div>
+</body>
+</html>

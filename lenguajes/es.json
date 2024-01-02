@@ -1,0 +1,50 @@
+{    "menu":{
+    "trabajos": "Trabajos",
+    "sobre_mi": "Sobre Mí",
+    "lenguajes": "Lenguajes",
+    "habilidades": "Habilidades",
+    "contactame": "Mi Contacto"
+},
+
+"about":{
+    "titulo": "SOY TOMAS CURTI",
+    "descripcion_1": "Me especializo en diseño front end, tengo experiencia haciendo webs con grandes funciones y diseños sorprendentes.",
+    "descripcion_2":"Me han capacitado para mejorar mis habilidades para desarrollar soluciones a problemas y trabajar con personas para hacer negocios más grandes."
+},
+
+"lenguajes":{
+    "titulo": "trabajo con",
+    "HTML":"HTML (Hypertext Markup Language), es un estándar utilizado para la creación y el diseño de páginas web. Es un lenguaje de marcado que se usa para estructurar el contenido de una página web mediante la utilización de etiquetas y atributos. Se entiende como si fuera el esqueleto del proyecto.",
+    
+    "CSS":"CSS, Hojas de Estilo en Cascada (Cascading Style Sheets), es un lenguaje utilizado para definir el estilo y la presentación de documentos HTML. Su objetivo principal es separar la estructura del contenido (definida por HTML) de su presentación visual. Se entiende como la cara del proyecto.", 
+
+    "JAVA_SCRIPT":"JavaScript (JS) es un lenguaje de programación de alto nivel que se utiliza para agregar interactividad y dinamismo a las páginas web. Se entiende como el músculo del proyecto."
+},
+
+"habilidades":{
+    "titulo": "habilidades",
+    "diseños_responsivos":"Diseños responsivos",
+    "grandes_funciones":"Grandes funciones",
+    "diseños_increibles": "diseños increíbles",
+    "hacemos_lo_que_necesitas": "Hago lo que necesitas"
+},
+
+"contactame":{
+    "titulo": "contacto"
+},
+
+"trabajos":{
+    "titulo": "trabajos",
+    "grupo_de_jovenes":"grupo de jóvenes",
+    "noticias":"Noticias",
+    "landing":"Landing Pages"
+},
+
+"footer":{
+    "cont" : ""
+}
+
+    
+        
+}
+    

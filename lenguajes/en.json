@@ -1,0 +1,46 @@
+{
+    "menu":{
+        "trabajos": "works",
+        "sobre_mi": "About Me",
+        "lenguajes":"Languages",
+        "habilidades": "Skills",
+        "contactame": "Contact Me"
+    },
+
+    "about":{
+        "titulo": "I AM TOMAS CURTI",
+        "descripcion_1": "I am a frontend developer, with experience making webs withs great functions and amazing desings.",
+        "descripcion_2":"I have been trained to improve my skills to develop solutions of problems, and work with people to make a bigger shops."
+    },
+
+    "lenguajes":{
+        "titulo": "work with",
+        "HTML":"HTML (Hypertext Markup Language) is a standard used for the creation and design of web pages. It is a markup language that is used to structure the content of a web page through the use of tags and attributes. It's like it's the skeleton of the project.",
+        
+        "CSS":"CSS, Cascading Style Sheets, is a language used to define the style and presentation of HTML documents. Its main objective is to separate the structure of the content (defined by HTML) from its visual presentation. It's like the face of the project.", 
+
+        "JAVA_SCRIPT":"JavaScript (JS) is a high-level programming language used to add interactivity and dynamism to web pages. It's like the muscle of the project."
+    },
+
+    "habilidades":{
+        "titulo": "Skills",
+        "diseños_responsivos":"Responsive desings",
+        "grandes_funciones":"Great functions",
+        "diseños_increibles": "awesome desings",
+        "hacemos_lo_que_necesitas": "I make what you want"
+    },
+
+    "contactame":{
+        "titulo": "contact me"
+    },
+
+    "trabajos":{
+        "titulo": "Works",
+        "grupo_de_jovenes":"Young Grup",
+        "noticias":"News",
+        "landing":"Landing Pages"
+    }
+
+    
+        
+}

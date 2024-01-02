@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="assets/icono.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="hero" id="inicio">
+        <div class="hero__menu">
+            <div class="baderas-logo">
+
+                <div class="menu__logo__container">
+                    <img src="assets/LOGO.png" alt="" class="LOGO">
+                </div>
+
+                <div class="banderas_container">
+                    <img src="assets/Bandera-España.svg" alt="" id="bandera"  class="bandera bandera_es" data-lenguaje="es">
+                    <img src="assets/Bandera-inglaterra.svg" alt="" id="bandera" class="bandera bandera_en" data-lenguaje="en">
+                </div>
+
+            </div>
+
+            <ul class="menu__lists">
+                <li class="lists__list"><a href="#sobreMi" class="list__link" data-section="menu" data-value="sobre_mi">Sobre Mi</a></li>
+                <li class="lists__list"><a href="#skills" class="list__link" data-section="menu" data-value="lenguajes">Lenguajes</a></li>
+                <li class="lists__list"><a href="#trabajos" class="list__link" data-section="menu" data-value="habilidades">Habilidades</a></li>
+                <li class="lists__list"><a href="#contact" class="list__link" data-section="menu" data-value="contactame">Contactame</a></li>
+                <li class="lists__list"><a href="#carrucel" class="list__link" data-section="menu" data-value="trabajos">trabajos</a></li>
+            </ul>
+            <img src="assets/icon-menu.svg" alt="" class="menu__ham">
+        </div>
+    </header>
+
+    <section id="sobreMi">
+        <div class="sM__container">
+            <div class="SM__img"></div>
+            <div class="Sm__text__cont">
+                <h3 class="SM__title title" data-section="about" data-value="titulo">Soy Tomas Curti</h3>
+                <p class="SM__paragraph SM__paragraph1" data-section="about" data-value="descripcion_1">I am a frontend developer, with experience making webs withs great functions and amazing desings</p>
+                <p class="SM__paragraph SM__paragraph2" data-section="about" data-value="descripcion_2">I have been trained to improve my skills to develop solutions of problems, and work with people to make a bigger shops</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+
+        <h3 class="SK__title title" data-section="lenguajes" data-value="titulo">trabajo con</h3>
+        
+        <div class="continer">
+                
+            <div class="nombres">
+                <ul class="nombres_leng">
+                    <li class="lenguajes l1" value="1"><img src="assets/HTML_logo.png" class="SK__logo" value="1"><p class="leng_text" id="leng_HTML">HTML</p></li>
+                    <li class="lenguajes l2" value="2"><img src="assets/CSS_logo.png" class="SK__logo" alt=""><p class="leng_text" id="leng_CSS">CSS</p></li>
+                    <li class="lenguajes l3" value="3" ><img src="assets/JS_logo.png" class="SK__logo" alt=""><p class="leng_text leng_text_JS" id="leng_JS">JAVA SCRIPT</p></li>
+                </ul>
+            </div>
+            
+            <div class="marcadores">
+                <div class="marcador"></div>
+                <div class="select"><img src="assets/icon-arrow-down.svg" class="select_arrow"></div>
+            </div>
+            
+            <div class="texto">
+                <p class="texto_relativo texto_HTML" data-section="lenguajes" data-value="HTML">HTML(Hypertext Markup Language), es un estándar utilizado para la creación y el diseño de páginas web. Es un lenguaje de marcado que se usa para estructurar el contenido de una página web mediante la utilización de etiquetas y atributos. Es como si fuera el esqueleto del proyecto</p>
+                <p class="texto_relativo texto_CSS" data-section="lenguajes" data-value="CSS">CSS, Hojas de Estilo en Cascada (Cascading Style Sheets), es un lenguaje utilizado para definir el estilo y la presentación de documentos HTML. Su objetivo principal es separar la estructura del contenido (definida por HTML) de su presentación visual. Es como la cara del proyecto</p>
+                <p class="texto_relativo texto_JS" data-section="lenguajes" data-value="JAVA_SCRIPT">JavaScript (JS) es un lenguaje de programación de alto nivel que se utiliza para agregar interactividad y dinamismo a las páginas web. Es como el musculo del proyecto</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="trabajos">
+        <div class="trabajos__cont">
+            <h2 class="tp__title title" data-section="habilidades" data-value="titulo">Habilidades</h2>
+            <div class="tp__cont">
+                <div class="tps tp__1">
+                    <div class="tps__hover">
+                        <p class="tps__text" data-section="habilidades" data-value="diseños_responsivos">
+                            responsive desings 
+                        </p>
+                    </div>
+                </div>
+                <div class="tps tp__2">
+                    <div class="tps__hover">
+                        <p class="tps__text" data-section="habilidades" data-value="diseños_increibles">
+                            amazing desings 
+                        </p>
+                    </div>
+                </div>
+                <div class="tps tp__3">
+                    <div class="tps__hover">
+                        <p class="tps__text" data-section="habilidades" data-value="grandes_funciones">
+                            great functions 
+                        </p>
+                    </div>
+                </div>
+                <div class="tps tp__4">
+                    <div class="tps__hover">
+                        <p class="tps__text" data-section="habilidades" data-value="hacemos_lo_que_necesitas">
+                            make what you want 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact__container">
+            <div class="contact__title__container">
+                <h2 class="contact__title title" data-section="contactame" data-value="titulo">contactame</h2>
+            </div>
+            <div class="contact__cont">
+                <div class="contact__ways contact__whatsapp" title="+54 341 6643059"><a href="https://wa.link/8wbqo1" target="_blank"><img src="assets/whatsapp_logo.svg" alt="" class="contact__icon"></a></div>
+                <div class="contact__ways contact__mail" title="curti.tomas.andres@gmail.com" onclick="copiarTexto('curti.tomas.andres@gmail.com')"><a href=""><img src="assets/Gmail_logo.svg" target="_blank" alt="" class="contact__icon"></a></div>
+                <div class="contact__ways contact__ig" title="@pomits"><a href="https://instagram.com/pomits__?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="assets/instagram_logo.svg" alt="" class="contact__icon"></a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carrucel">
+
+        <h2 class="title title__carrucel" data-section="trabajos" data-value="titulo">Trabajos</h2>
+        <div class="container">
+            
+            <div class="content">                
+
+                <a class="link__content" href="https://7iglesias.netlify.app">
+                    <div class="foto F1">
+                        <div class="content__hover"><p class="hover__text" data-section="trabajos" data-value="grupo_de_jovenes">GRUPO DE JOVENES</p></div>
+                        <!-- <img src="assets/ej,7 iglesias.jpg" alt="" class="carrucel__img"> -->
+                    </div>
+                </a>
+                
+                <a class="link__content" href="./assets/EJ2/index.html">
+                    <div class="foto F2">
+                        <div class="content__hover"><p class="hover__text" data-section="trabajos" data-value="noticias">NOTICIAS</p></div>
+                        <!-- <img src="assets/ej, jueguitos.jpg" alt="" class="carrucel__img"> -->
+                    </div>
+                </a>
+                
+                <a class="link__content" href="./assets/EJ3/index.html">
+                    <div class="foto F3">
+                        <div class="content__hover"><p class="hover__text" data-section="trabajos" data-value="landing">LANDING</p></div>
+                        <!-- <img src="assets/ej, naranja.jpg" alt="" class="carrucel__img"> -->
+                    </div>
+                </a>
+ 
+            </div>
+
+            <div class="flecha_content row_left"><img src="assets/icon-arrow-down.svg"  class="row_img img_left"></div>
+            <div class="flecha_content row_right"><img src="assets/icon-arrow-up.svg"  class="row_img img_right" alt=""></div>
+          
+            
+
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
