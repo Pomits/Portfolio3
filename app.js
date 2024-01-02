@@ -96,11 +96,11 @@ l2.addEventListener("click", (e)=>{
 })
 
 l3.addEventListener("click", (e)=>{
-    movedor.style.transform = "translateY(-87%)";
+    movedor.style.transform = "translateY(-85%)";
 })
 }
 
-if(window.screen.width > "431"){
+if(window.screen.width > "768"){
 
     l1.addEventListener("click", (e)=>{
         movedor.style.transform = "translateY(-50%)";
