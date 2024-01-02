@@ -86,7 +86,7 @@ function cambio_texto(){
     }
 }
 
-if(window.screen.width <= "431"){
+if(window.screen.width <= "768"){
 l1.addEventListener("click", (e)=>{
     movedor.style.transform = "translateY(-290%)";
 })
