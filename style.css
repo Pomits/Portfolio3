@@ -267,7 +267,7 @@ body{
 /*About Me*/
 
 #sobreMi{
-    height: 60%;
+    height: 70%;
     margin-top: 30%;
 }
 
@@ -639,7 +639,7 @@ body{
 
 
 
-@media (min-width: 431px){
+@media (min-width: 769px){
 
 /*menu*/
 
