@@ -331,9 +331,9 @@ body{
 }
 
 
-@media (max-width:375px){
+@media (max-width:768){
     .main{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr, 1fr;
         grid-template-areas: 
         "naranja"
         "img1"
@@ -371,7 +371,7 @@ body{
     }
 
     .header__title{
-        width: 60%;
+        width: 100%;
         margin: 20px auto;
         font-size: 1.5rem;
         z-index: 1;
